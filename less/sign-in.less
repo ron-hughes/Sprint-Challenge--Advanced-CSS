@@ -1,0 +1,36 @@
+// Sign In
+
+
+
+.sign-in {
+    font-size: 1.2rem;
+
+
+input[type=text] {
+    width: 40%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+  }
+input[type=password] {
+    width: 40%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+  }
+input[type=button] {
+    .btnMixin(@btn-bg-color, white);
+        width: 35%;
+        padding: 10px;
+        border-radius: 5px;
+        text-align: center;
+        font-size: 2rem;
+        @media @phone {
+          width: 100%;
+        }
+        &:hover {
+          color: purple;
+          background-color: rgb(226, 202, 202)
+        }
+      }      
+    }

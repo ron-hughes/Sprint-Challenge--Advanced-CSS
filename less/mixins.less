@@ -1,1 +1,13 @@
 // Mixins Here
+
+.flex(@justify) {
+    display: flex;
+    justify-content: @justify;
+}
+
+.btnMixin(@bgColor, @fontColor) {
+    background-color: @bgColor;
+    color: @fontColor;
+}
+
+@phone: (max-width: 500px);

@@ -1,1 +1,30 @@
 // Navigation code here
+
+.space-walk {
+  .flex(center);
+    p {
+        color: blue;
+        font-size: 3.2rem;
+      }
+}
+.navigation {
+   .flex(center);
+    ul {
+        display: flex;
+    a {
+        color: @nav-font;
+        text-decoration: none;
+        padding: 20px;
+        font-size: 3.2rem;
+        @media @phone {
+          padding: 10px;
+        font-size: 2rem;
+        }
+    &:hover{
+      background-color: powderblue;
+      border-radius: 10px;
+    }
+      }
+    }
+
+}
